@@ -1,5 +1,5 @@
     //JSON 데이터 객체와 문자열로 변환하기
-    //JSON.parse() JSON데이터(문자열) -> 객체 , JSON.stringfy() 객체 --> 문자열
+    //JSON.parse() JSON데이터 -> 객체 , JSON.stringfy() 객체 --> 문자열
 
     //[1] : JSON.parse(jsonText) --> JSON 형식의 텍스트 --> 자바스크립트 객체로 반환
     let jsonText = '{"name":"홍길동", "age":20, "nationality": "대한민국"}';
