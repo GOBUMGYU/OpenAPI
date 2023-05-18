@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "홍길동",
+    "age": 20,
+    "job": "서울시 서초구 양재동 OO물산 307-12 양재로 111",
+    "gender": "Male",
+    "job": "Programmer",
+    "hobby": "영화보기"
+  },
+  {
+    "id": 2,
+    "name": "현호성",
+    "age": 21,
+    "job": "서울시 서초구 양재동 OO물산 307-12 양재로 111",
+    "gender": "Male",
+    "job": "Programmer",
+    "hobby": "수영"
+  },
+  {
+    "id": 3,
+    "name": "이인철",
+    "age": 24,
+    "job": "서울시 서초구 양재동 OO물산 307-12 양재로 111",
+    "gender": "Male",
+    "job": "Programmer",
+    "hobby": "공부하기"
+  },
+  {
+    "id": 4,
+    "name": "유호성",
+    "age": 25,
+    "job": "서울시 서초구 양재동 OO물산 307-12 양재로 111",
+    "gender": "Male",
+    "job": "Programmer",
+    "hobby": "공예"
+  },
+  {
+    "id": 5,
+    "name": "김철민",
+    "age": 34,
+    "job": "서울시 서초구 양재동 OO물산 307-12 양재로 111",
+    "gender": "Male",
+    "job": "Programmer",
+    "hobby": "작곡"
+  },
+  {
+    "id": 6,
+    "name": "서우식",
+    "age": 38,
+    "job": "서울시 서초구 양재동 OO물산 307-12 양재로 111",
+    "gender": "Male",
+    "job": "Programmer",
+    "hobby": "헬스"
+  },
+  {
+    "id": 7,
+    "name": "김범수",
+    "age": 20,
+    "job": "서울시 서초구 양재동 OO물산 307-12 양재로 111",
+    "gender": "Male",
+    "job": "Programmer",
+    "hobby": "음악듣기"
+  }
+]
