@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BootStrap Table Example</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <!--
+      1. 컨테이너 없이 테이블만 작성하면 너비가 100% 꽉 참
+      2. 테이블 외곽에 div 쓰고 class=table 적용하면 양쪽에 적절한 마진 생김.
+      3. table-bordered
+      4. table-striped
+      5. table-dark, table-light
+      6. thead 에만 다크 적용도 가능:class=thead-dark
+      7. colspan 사용도 가능
+      8. table-hover
+      9. table-sm : small로써 컴팩트하고 피트하게 맞춰준다. 폰트 사이즈도 고려
+      10. tr,td : class="table-info", "table-danger", "table-success"
+      11. tr,td : class="bg-info", "bg-danger", "bg-success"
+      12. <caption>List of members</caption>
+    -->
+</head>
+<body>
+<div class="container">
+      <h3 style="text-align: center; padding-top: 50px">
+          Bootstrap Table Example
+          <br>
+          <small class="text-muted">with faded secondary text</small>
+      </h3>
+      <br>
+      <table class="table table-bordered table-striped table-dark text-center table-sm table-hover">
+        <caption class="text-center">Free member List of members</caption>
+        <thead class="thead-light">
+          <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>Address</th>
+            <th>Gender</th>
+            <th>Job</th>
+            <th>Hobby</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>홍길동</td>
+                <td>22</td>
+                <td class="text-left">서울시 강동구 상일동 OO상회 103-12, 1230</td>
+                <td>Male</td>
+                <td>Programmer</td>
+                <td>영화보기</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>김철민</td>
+                <td>14</td>
+                <td class="text-left">서울시 양평구 목동 OO상회 433-12, 1830</td>
+                <td>Female</td>
+                <td>Programmer</td>
+                <td>여행가기</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>최수로</td>
+                <td>38</td>
+                <td class="text-left">서울시 강동구 고덕동 OO물산 223-66, 6612</td>
+                <td>Male</td>
+                <td>Programmer</td>
+                <td>음악감상</td>
+            </tr>
+            <tr class="bg-success">
+                <td colspan="1">인원통계</td>
+                <td colspan="6">3명</td>
+            </tr>
+        </tbody>
+      </table>
+</div>
+</body>
+</html>
